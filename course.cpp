@@ -1,6 +1,8 @@
 #include"Course.h"
 
-Course::Course(string code, string title, int credit) {
+
+Course::Course(string code, string title, int credit)
+{
   
 this->code= code;
   this->title = title;
